@@ -401,7 +401,7 @@ nav .active a::after {
   overflow: hidden;
   padding-top: 10px;
 }
-/* features */
+/* features 1*/
 .features {
   margin-top: 135px;
   padding: 65px 0;
@@ -440,4 +440,18 @@ nav .active a::after {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+/* features 2 */
+.features-2{
+  margin-top: 70px;
+}
+.features-2 .body{
+  flex-direction: row-reverse;
+}
+.features-2 .content{
+  width: 49%;
+}
+.features-2 .images img{
+  width: 470px;
+  height: 440px;
 }
